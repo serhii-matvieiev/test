@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0;
+    min-height: 100vh;        
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    background: #202020; 
+}  
+
+.center{
+    width: 500px;
+    height: 656px;
+    background: #fff;
+}
+
+.tabs{
+    display: flex; 
+    align-items: center;              
+    margin-left: 172px;
+    margin-top: 52px;
+    gap: 12px;
+    font-family: "Cera Pro";                  
+    
+}
+
+.login-text{
+    color: #3D3D3D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.divider{
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 16px;
+}
+
+.register-text{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px; 
+}
+
+.subtitle{
+    color: #3D3D3D;
+    font-family: "Cera Pro", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 30px;  
+}
+
+.form{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 18px; 
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    background: #fff;
+
+    color: #A5A5A5;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    
+}
